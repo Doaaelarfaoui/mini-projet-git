@@ -12,6 +12,7 @@ function ajouterTache() {
   const li = document.createElement("li");
   li.textContent = input.value;
   liste.appendChild(li);
+  incrementer();
   input.value = "";
 }
 
